@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  display: inline-block;
+  border: 2px solid #000;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.piece {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.own {
+  color: green;
+  font-weight: bold;
+}
+
+.enemy {
+  color: red;
+  font-weight: bold;
+}
+
+.move-option {
+  background-color: lightblue;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.move-buttons button {
+  margin: 5px;
+}  
+
+/* .App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 2px;
+  margin: auto;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.piece {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.own {
+  color: blue;
+}
+
+.enemy {
+  color: red;
+}
+
+.move-option {
+  cursor: pointer;
+  background-color: #e0e0e0;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.move-buttons button {
+  margin: 2px;
+}
+ */
+
+
+ /* body {
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.cell.selected {
+  background-color: yellow;
+} */
+
+ 
